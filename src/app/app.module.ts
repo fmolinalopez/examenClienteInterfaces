@@ -3,14 +3,20 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { PeliculaComponentComponent } from './pelicula-component/pelicula-component.component';
+import { ListaPeliculasComponentComponent } from './lista-peliculas-component/lista-peliculas-component.component';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PeliculaComponentComponent,
+    ListaPeliculasComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,12 @@
+<h1>Lista de peliculas</h1>
+<h2>Ideas votadas {{ideasVotadas}}</h2>
+
+<app-pelicula-component *ngFor="let pelicula of peliculas; let i=index"
+                        [pelicula]="pelicula"
+                        [clase] = "pelicula.genero.toLowerCase()"
+                        [colorBackground]="pelicula.votos > 5 ? 'fondoVerde' : 'fondoRojo'"
+                        [autor] = "autor"
+                        [index]="i"
+                        [ideasVotadas]="ideasVotadas">
+</app-pelicula-component>
+

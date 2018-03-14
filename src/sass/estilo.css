@@ -1,0 +1,30 @@
+.idea {
+  font-size: 10px; }
+
+.fondoRojo {
+  background: red; }
+
+.fondoVerde {
+  background: green; }
+
+.comedia {
+  border: solid peru;
+  color: peru; }
+
+.terror {
+  border: solid black;
+  color: black; }
+
+.aventuras {
+  border: solid purple;
+  color: purple; }
+
+.ciencia-ficcion {
+  border: solid blue;
+  color: blue; }
+
+.romantica {
+  border: solid pink;
+  color: pink; }
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,50 @@
+@import "sass/auxiliar";
+
+.idea {
+  font-size: $fontSize;
+  .fondoRojo {
+    background: red;
+  }
+
+  .fondoVerde {
+    background: green;
+  }
+
+  .comedia {
+    border: solid peru;
+    color: peru;
+  }
+
+  .terror {
+    border: solid black;
+    color: black;
+  }
+
+  .aventuras {
+    border: solid purple;
+    color: purple;
+  }
+
+  .ciencia-ficcion {
+    border: solid blue;
+    color: blue;
+  }
+
+  .romantica {
+    border: solid pink;
+    color: pink;
+  }
+}
+
+.votar{
+  width: 50px;
+  height: 50px;
+  background: purple;
+  &:hover{
+    background: red;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+

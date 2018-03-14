@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+.idea {
+  font-size: 10px; }
+  .idea .fondoRojo {
+    background: red; }
+  .idea .fondoVerde {
+    background: green; }
+  .idea .comedia {
+    border: solid peru;
+    color: peru; }
+  .idea .terror {
+    border: solid black;
+    color: black; }
+  .idea .aventuras {
+    border: solid purple;
+    color: purple; }
+  .idea .ciencia-ficcion {
+    border: solid blue;
+    color: blue; }
+  .idea .romantica {
+    border: solid pink;
+    color: pink; }
+
+.votar {
+  width: 50px;
+  height: 50px;
+  background: purple; }
+  .votar:hover {
+    background: red;
+    width: 100px;
+    height: 100px; }
+
+/*# sourceMappingURL=styles.css.map */

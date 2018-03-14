@@ -1,0 +1,39 @@
+@import "auxiliar";
+
+.idea {
+  font-size: $fontSize;
+}
+
+.fondoRojo {
+  background: red;
+}
+
+.fondoVerde {
+  background: green;
+}
+
+.comedia {
+  border: solid peru;
+  color: peru;
+}
+
+.terror {
+  border: solid black;
+  color: black;
+}
+
+.aventuras {
+  border: solid purple;
+  color: purple;
+}
+
+.ciencia-ficcion {
+  border: solid blue;
+  color: blue;
+}
+
+.romantica {
+  border: solid pink;
+  color: pink;
+}
+
